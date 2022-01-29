@@ -8,8 +8,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #7878d3;
+  --secondary-color: #494968;
+}
+
 body {
-  background-color: #3b3b98;
+  background-color: var(--primary-color);
   font-family: 'Mulish', sans-serif;
   color: #fff;
   overflow: hidden;
@@ -34,7 +39,7 @@ h2 {
   width: 360px;
   max-width: 100%;
   padding: 20px;
-  background-color: #23235b;
+  background-color: var(--secondary-color);
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
 }
 
@@ -65,7 +70,7 @@ h2 {
 
 .btn {
   padding: 8px 12px;
-  background-color: #3b3b98;
+  background-color: var(--primary-color);
   border: none;
   font-size: 1rem;
   color: #fff;
